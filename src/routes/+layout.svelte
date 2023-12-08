@@ -10,6 +10,11 @@
 
 <Nav />
 <slot />
-<footer class="mt-24">
-	© commitsovercoffee | Made with <a href="https://svelte.dev/">svelte</a>.
+<footer class="mt-24 font-plex_sans">
+	<section class="flex justify-center items-center space-x-4 text-dark underline-offset-8">
+		<p>© commitsovercoffee.</p>
+		<a class="hover:no-underline" href="/">RSS</a>
+		<a class="hover:no-underline" href="/">Github</a>
+		<a class="hover:no-underline text-[#f96743]" href="/">Svelte</a>
+	</section>
 </footer>

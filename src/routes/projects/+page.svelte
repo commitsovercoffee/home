@@ -6,9 +6,7 @@
 
 <main class="grid grid-cols-1 lg:grid-cols-2">
 	{#each content.projects as project}
-		<section
-			class="m-2 rounded-xl p-4 bg-darker border-2 border-darker hover:border-dark transition-all duration-300 ease-in-out"
-		>
+		<section class="m-2 rounded-xl p-4 bg-darker">
 			<ul class="p-0 list-inside list-none">
 				<li class="font-bold font-contrail text-light">
 					{project.name}
