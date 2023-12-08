@@ -6,7 +6,7 @@
 	// nav bar
 	let links = ['home', 'projects', 'blog', 'about'];
 	const style =
-		'inline m-2 border-dark p-2 uppercase no-underline font-contrail text-lg text-dark transition-color duration-300 ease-in-out';
+		'inline m-2 border-dark p-2 uppercase no-underline font-contrail text-lg text-dark transition-color duration-300 delay-100 ease-in-out';
 </script>
 
 <nav class="mb-24 flex justify-center">
