@@ -1,5 +1,15 @@
 <script>
 	import '../app.css';
+
+	const links = ['Home', 'Projects', 'Blog', 'About'];
 </script>
 
+<nav class="mb-24 flex justify-center">
+	{#each links as link}
+		<a href="/" class="inline p-2 mx-4 my-2 no-underline">{link}</a>
+	{/each}
+</nav>
 <slot />
+<footer class="mt-24">
+	© commitsovercoffee | Made with <a href="https://svelte.dev/">svelte</a>.
+</footer>
