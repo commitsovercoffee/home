@@ -8,7 +8,14 @@ export default {
 				plex_mono: "'IBM Plex Mono', mono ",
 				plex_sans: "'IBM Plex Sans', sans-serif ",
 				plex_serif: "'IBM Plex Serif', serif ",
-				caveat: "'Caveat Variable', sans-serif ",
+				caveat: "'Caveat Variable', sans-serif "
+			},
+			colors: {
+				darkest: '#18181b',
+				darker: '#545454',
+				dark: '#737373',
+				light: '#d9d9d9',
+				lighter: '#FFFBF5'
 			}
 		}
 	},
